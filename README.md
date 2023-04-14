@@ -1,5 +1,5 @@
-
 This repository contains my React JS learning project from 'React Course For Beginners - Learn React in 8 Hours' tutorial by Pedro Tech (https://www.youtube.com/watch?v=f55qeKGgB_M). Thanks to Pedro for creating the tutorial.
+
 
 # Getting Started with Create React App
 
