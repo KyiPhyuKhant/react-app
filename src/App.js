@@ -2,19 +2,18 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  // let age = 0;
-  const [age, setAge] = useState(1);
-
-  const IncreaseAge = () => {
-    setAge(5);
-    // age = age + 1;
-    // console.log(age);
-  };
+  const [textColor, setTextColor] = useState("black");
 
   return (
     <div className='App'>
-      {age}
-      <button onClick={IncreaseAge}>Increase age</button>
+      <button
+        onClick={() => {
+          setTextColor(textColor === "black" ? "red" : "black");
+        }}
+      >
+        Show/Hide
+      </button>
+      <h1 style={{ color: textColor }}> Hi My name is kldfhkaldfh</h1>
     </div >
   );
 }
