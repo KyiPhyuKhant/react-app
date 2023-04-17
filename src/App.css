@@ -32,12 +32,86 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 
-/* .App {
-  color: red;
-} */
+.App {
+  padding: 20px;
+  font-size: 25px;
+}
+
+/* Module5 */
+.addTask {
+  padding: 20px;
+  background: #333;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.addTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.addTask input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.addTask button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.list div h1 {
+  margin: 0;
+}
+
+.list div button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
