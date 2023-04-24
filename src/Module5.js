@@ -32,7 +32,7 @@ function App() {
           return task;
         }
       })
-      );
+    );
   };
 
   return (

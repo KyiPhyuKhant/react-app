@@ -8,9 +8,9 @@ function App() {
     return (
         <div className='App'>
             <button
-            onClick={()=>{
-                setshowText(!showText);
-            }}
+                onClick={() => {
+                    setshowText(!showText);
+                }}
             >
                 Show Text
             </button>
