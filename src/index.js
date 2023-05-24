@@ -4,12 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import App from './App';;
 // import Module5 from './Module5'
-import Module6 from './Module6'
+// import Module6 from './Module6'
+import Module7 from './Module7'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Module6 />
+    <Module7 />
   </React.StrictMode>
 );
 
